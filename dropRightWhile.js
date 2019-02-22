@@ -8,5 +8,3 @@ Array.prototype.dropRightWhile = function(predicate) {
   }
   return newArray;
 };
-
-///to do
