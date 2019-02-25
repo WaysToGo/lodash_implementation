@@ -1,5 +1,3 @@
 Array.prototype.intersection = function(array) {
-  return this.filter((value, index) =>
-    array.indexOf(value) > -1 ? true : false
-  );
+  return this.filter(value => array.indexOf(value) > 0);
 };
